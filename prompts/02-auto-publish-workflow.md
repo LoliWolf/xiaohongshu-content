@@ -99,6 +99,7 @@ xiaohongshu-content/
 - 读取 `publish_log.md` 获取发布记录信息
 - 获取所有图片文件的完整路径
 - 自行提取并整理：标题、正文、标签、图片列表
+- 注意对 `post_content.md` 里的\n的处理，确保正文内容正确换行
 - **随后必须调用 `xhs-mcp-operator` skill（xiaohongshu MCP）完成发布**
 
 **说明**:
