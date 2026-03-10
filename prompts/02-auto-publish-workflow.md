@@ -14,6 +14,7 @@
 - Chrome / Browser Relay / attach tab
 - 任何浏览器自动化兜底方案
 - 任何与 xiaohongshu MCP 无关的网页点击发布流程
+- 自行修改读取到的要发布的文案内容
 
 ### 失败时的规则
 - 如果 `xhs-mcp-operator` skill 不可用，**直接报错并停止任务**
