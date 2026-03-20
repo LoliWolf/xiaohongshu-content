@@ -37,3 +37,7 @@
 - `image.jpg` - 帖子配图
 - `post_content.md` - 帖子文案
 - `publish_log.md` - 发布记录（本文件）
+
+## 发布失败记录
+- **时间**: 2026-03-20 23:00:29
+- **错误**: 连接到小红书 MCP 服务失败 (Connection refused)。请检查服务是否在 localhost:18060 运行。
