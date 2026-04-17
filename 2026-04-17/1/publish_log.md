@@ -64,3 +64,9 @@
 - **结果**: 失败
 - **失败原因**: 没有找到发布 TAB - 上传图文
 - **返回摘要**: 按自动发布工作流再次重试，确认 MCP 账号仍为已登录状态，并使用 `.autopublish_title.txt`、`.autopublish_content.txt`、`image.jpg` 与 9 个标签直接调用 `publish_content`；但发布页面仍未定位到“上传图文”TAB，故未完成发布，也未创建 `published` 标记。
+
+- **尝试时间**: 2026-04-17 23:00 (Asia/Shanghai)
+- **执行方式**: xhs-mcp-operator / `publish_content`
+- **结果**: 失败
+- **失败原因**: 没有找到发布 TAB - 上传图文
+- **返回摘要**: 本次 cron 按规则扫描当日目录后，仅发现 `2026-04-17/1` 为可发布项目；确认 MCP 账号仍为已登录状态，并再次使用 `.autopublish_title.txt`、`.autopublish_content.txt`、`image.jpg` 与 9 个标签调用 `publish_content`，但发布页面依然未定位到“上传图文”TAB，因此本次未发布成功，未创建 `published` 标记。
