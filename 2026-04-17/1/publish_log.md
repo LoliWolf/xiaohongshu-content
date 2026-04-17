@@ -58,3 +58,9 @@
 - **结果**: 失败
 - **失败原因**: 没有找到发布 TAB - 上传图文
 - **返回摘要**: 本次重新提取了标题、正文与 9 个标签，携带 `image.jpg` 通过 xhs-mcp-operator 再次调用 `publish_content`；MCP 账号仍处于已登录状态，但发布页面依然未定位到“上传图文”TAB，因此未完成发布。
+
+- **尝试时间**: 2026-04-17 22:00 (Asia/Shanghai)
+- **执行方式**: xhs-mcp-operator / `publish_content`
+- **结果**: 失败
+- **失败原因**: 没有找到发布 TAB - 上传图文
+- **返回摘要**: 按自动发布工作流再次重试，确认 MCP 账号仍为已登录状态，并使用 `.autopublish_title.txt`、`.autopublish_content.txt`、`image.jpg` 与 9 个标签直接调用 `publish_content`；但发布页面仍未定位到“上传图文”TAB，故未完成发布，也未创建 `published` 标记。
