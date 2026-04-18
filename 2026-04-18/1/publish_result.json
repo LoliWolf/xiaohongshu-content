@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "message": "发布成功",
+  "data": {
+    "title": "这片摩艾石像，像时间没说完的话",
+    "images": 1,
+    "status": "发布完成"
+  },
+  "attempted_at": "2026-04-18 10:11:07 Asia/Shanghai",
+  "images_sent": [
+    "/Users/loli_wolf/.openclaw/workspace/xiaohongshu-content/2026-04-18/1/image.jpg"
+  ],
+  "note": "MCP 更新后重试成功"
+}

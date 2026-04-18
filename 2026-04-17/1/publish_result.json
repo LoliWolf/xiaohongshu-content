@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "message": "发布成功",
+  "data": {
+    "title": "原来狐蝠抱娃，也能这么温柔",
+    "images": 1,
+    "status": "发布完成"
+  },
+  "attempted_at": "2026-04-18 10:10:22 Asia/Shanghai",
+  "images_sent": [
+    "/Users/loli_wolf/.openclaw/workspace/xiaohongshu-content/2026-04-17/1/image.jpg"
+  ],
+  "note": "MCP 更新后重试成功"
+}
