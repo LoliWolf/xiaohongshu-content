@@ -39,3 +39,13 @@
 - `image.jpg` - 帖子配图
 - `post_content.md` - 帖子文案
 - `publish_log.md` - 发布记录（本文件）
+
+---
+
+## 自动发布结果
+- **实际发布时间**: 2026-05-09 12:00:00 Asia/Shanghai
+- **发布状态**: 已发布
+- **发布方式**: xhs-mcp-operator / publish_content
+- **发布结果**: 发布成功
+- **返回摘要**: status=发布完成；images=1；auto_generated_image=false；images_sent=image.jpg
+- **笔记ID**: MCP 返回结果未提供
